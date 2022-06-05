@@ -1,1 +1,0 @@
-{"mappings":"AAAA,SAASA,cAAcC,EAAUC,GACTC,KAAKC","sources":["src/js/03-promises.js"],"sourcesContent":["function createPromise(position, delay) {\n  const shouldResolve = Math.random() > 0.3;\n  if (shouldResolve) {\n    // Fulfill\n  } else {\n    // Reject\n  }\n}\n"],"names":["createPromise","position","delay","Math","random"],"version":3,"file":"03-promises.c909db4e.js.map"}
