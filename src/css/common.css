@@ -16,3 +16,50 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer{
+  display: flex;
+}
+
+.value {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.label {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+input#datetime-picker {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: inline-flex;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+
+input[type="number"] {
+  max-width: 200px;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+}
